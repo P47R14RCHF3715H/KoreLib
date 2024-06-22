@@ -49,6 +49,7 @@ if (KORE_ENABLE_ASSERTIONS)
 endif()
 
 add_library(kore ${KORE_LIB_TYPE}
+    include/Assertion.hpp
     include/Exceptions/RuntimeException.hpp
     source/Exceptions/RuntimeException.cpp
 )
